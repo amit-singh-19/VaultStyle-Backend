@@ -23,6 +23,7 @@ const dbpass = encodeURIComponent(process.env.DBPASS);
 //   .connect("mongodb://localhost:27017/ecommerce")
 //   .then(() => console.log("MongoDB connected"))
 //   .catch((error) => console.log(error));
+
 mongoose
   .connect(
     `mongodb+srv://${dbuser}:${dbpass}@cluster0.n2cfzbu.mongodb.net/ecommerce`
