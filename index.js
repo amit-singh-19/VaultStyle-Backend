@@ -36,7 +36,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(
   cors({
-    origin: "https://vault-style-frontend.vercel.app/",
+    origin: "https://vault-style-frontend.vercel.app",
     methods: ["GET", "POST", "DELETE", "PUT"],
     allowedHeaders: [
       "Content-Type",
